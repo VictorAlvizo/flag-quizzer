@@ -1,0 +1,107 @@
+.GameTitle {
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 3.4vw;
+    text-shadow: 0px 5px 6px rgba(0.0, 0.0, 0.0, 0.3);
+    text-align: center;
+    transition: 0.2s;
+}
+
+.UserData {
+    margin: 75px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.UserNameInput {
+    width: 70vw;
+    height: 50%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 1px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+
+.UserNameInput:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 5px rgba(255.0, 255.0, 255.0, 0.5)
+}
+
+.StartGameBtn {
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #B2DF88;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    box-shadow: 0 6px 7px 0px rgba(0, 0, 0, 0.2), 0 6px 1px 0px rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.StartGameBtn:hover {
+    background-color: #A4CB7F;
+    color: white;
+}
+
+.StartGameBtn:active {
+    background-color: white;
+    color: black;
+}
+
+.ScoreTextDiv {
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 5px 6px rgba(0.0, 0.0, 0.0, 0.3);
+    transition: 0.2s;
+}
+
+.RandomFlagImg {
+    width: 28vw;
+    height: 15vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+
+.RandomFlagImg:hover {
+    box-shadow: 0px 0px 10px 15px rgba(255.0, 255.0, 255.0, 0.3)
+}
+
+.FooterCredit {
+    display: flex;
+    font-size: 0.95vw;
+    cursor: pointer;
+    font-weight:normal;
+}
+
+.FooterCredit:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .UserNameInput {
+        padding: 1vw;
+    }
+
+    .FooterCredit {
+        font-size: 2vw;
+        align-content:flex-start;
+        margin-top: 20%;
+        margin-left: 20px;
+    }
+}

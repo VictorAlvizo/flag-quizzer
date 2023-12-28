@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    background: #BC9EF8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+::selection {
+    background-color: #DD1C1A;
+    color: white;
+}
